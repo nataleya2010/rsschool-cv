@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5;
+    background: linear-gradient(to top left, #e3dfd2, #4d4d4d) fixed;
+    font-size: 20px;
+  }
+
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h1{
+    font-size: 38px;
+  }
+
+  h2, h3{
+    padding-bottom: 3vh;
+  }
+
+  .container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center
+  }
+
+  .section:hover{
+    margin: 3vh;
+    padding: 2vh;
+    border-radius:10%;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.7), -5px -10px 20px rgba(255,255,255,0.5);
+  }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color:wheat;
+    font-size: 20px;
+  }
+
+  .nav-link:hover,.contacts-item a:hover{
+    padding: 1vh;
+    border-radius:30%;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.7), -5px -10px 20px rgba(255,255,255,0.5);
+  }
+
+  .i-am {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+
+  .ava {
+    max-width: 200px;
+    margin-top: 3vh;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.7), -5px -10px 20px rgba(255,255,255,0.5);
+  }
+  main{
+    padding-bottom: 30px;
+  }
+  .nav-list-footer{
+    padding-top: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+
+  .nav-footer{
+    width: 25%;
+  }
+
+  .icon{
+    width: 50%;
+  }
+  .icon-git{
+    width: 35%;
+  }
+
+  .contacts-list{
+    width: 40%;
+  }
+
+  .list-contact{
+    width: 100%;
+    padding-left: 8vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts-item{
+   position: relative;
+   line-height: 50px;
+   font-size: 30px;
+  }
+  .contacts-item a{
+    color:rgb(21, 21, 20);
+    font-size: 30px;
+  }
+  
+  .contacts-item::before{
+    position: absolute;
+    left: -70px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+  }
+  .lok::before{
+    background-image: url("../assets/img/adress.png");
+  }
+ .phon::before{
+  background-image: url("../assets/img/phon.svg")
+  }
+ .em::before{
+  background-image: url("../assets/img/email.svg")
+  }
+ .lin::before{
+  background-image: url("../assets/img/linkedin.png")
+  }
+ .git::before{
+  background-image: url("../assets/img/git.svg")
+  }
+ .telega::before{
+  background-image: url("../assets/img/telega.png")
+  }

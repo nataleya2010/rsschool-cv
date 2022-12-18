@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/fav.ico">
+    <title>sv</title>
+</head>
+<body>
+<div class="container">
+<header class="header">
+     <nav class="nav">
+        <ul class ="nav-list">
+            <li class ="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+            <li class ="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class ="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+            <li class ="nav-item"><a href="#code" class="nav-link">code</a></li>
+            <li class ="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+            <li class ="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class ="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+      <section class="i-am">
+         <img src="assets/img/ava.jpg" alt="avatarka" class="ava">
+         <div class="about-my">
+            <h1 class="my-name">Natalia Ryzhykova</h1>
+            <h2 class="my-hope">Possible front-end developer</h2>
+         </div>
+      </section>
+
+</header>
+<main class="main">
+        <section class="section" id ="contacts">
+            <h2 class ="contacts">Contacts</h2>
+            <div class="list-contact">
+                <ul class ="contacts-list">
+                <li class ="contacts-item lok">
+                    <strong>Location:</strong> Kharkov, Ukraine
+                </li>
+                <li class ="contacts-item phon">
+                <a href=”tel:+380509185393”>
+                    <strong>Phone:</strong>  +38 (050) 918-53-93
+                </a>
+                </li>
+                <li class ="contacts-item em">
+                <a href="mailto:gnwr2010@gmil.com">
+                    <strong>Email:</strong>  gnwr2010@gmail.com
+                </a>
+                </li>
+                </ul>
+                <ul class ="contacts-list">
+                <li class ="contacts-item lin">
+                    <a href="https://www.linkedin.com/feed/">
+                        Lincedin:
+                    </a>
+                </li>
+                <li class ="contacts-item git">
+                    <a href ="https://github.com/nataleya2010">
+                        Github:
+                    </a>
+                </li>
+                <li class ="contacts-item telega">
+                    <a href ="https://t.me/nataleya2010">
+                        Telegram:
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section" id ="summary">
+            <h2>About Me</h2>
+            <p>
+            I do not like to stagnate in one place. I am learning something all the time. My brain needs constant recharging. He constantly asks for new information. Because of this feature, I did not work at one place for more than 3 years. And so I found an area where you can study forever. I touched the IT world and realized that we have a very long way ahead of us. This is love forever and my brain will never be bored again.
+            </p>
+
+        </section>
+        <section class="section" id ="skills">
+            <h2>Skills</h2>
+            <ul class ="skills">
+                <li>&#10004; HTML</li>
+                <li>&#10004; CSS</li>
+                <li>&#10004; JavaScript (Basic)</li>
+                <li>&#10004;GIT (Basic)</li>
+            </ul>
+        </section>
+        <section class="section" id ="code">
+            <h2>Code Example</h2>
+            <h3>Instructions</h3>
+            <p>
+            If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+            </p>
+            <p>
+            Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+            </p>
+            <h3>Decision</h3>
+<pre>
+function solution &#40;number&#41;&#123;
+    let counter &#61; 0;
+    if &#40;number&lt;&#61; 0 &#41;&#123;return counter;&#125;
+    else&#123;
+    for&#40;let i&#61; 0; i&lt;number; i++&#41;&#123;
+        if &#40;i &#37; 3&#61;&#61; 0 &#448;&#448; i &#37; 5 &#61;&#61; 0&#41;&#123;
+        counter &plus;&#61; i;
+                &#125;
+            &#125;
+        return counter;
+        &#125;
+    &#125;
+</pre>
+        </section>
+        <section class="section" id ="experience">
+            <h2>Experience</h2>
+            <p>
+            ...The most diverse. Laboratory assistant, assistant manager, controller, realtor, operator. Lots of communication, lots of attention, lots of control.
+            </p>
+        </section>
+        <section class="section" id ="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                &#9883; Academy of Labor and Social Relations, Faculty of Economics
+                </li>
+                <li>
+                <strong>Courses:</strong>
+                </li>
+                <ul>
+                    <li>
+                    &#9883; Computer Academy STEP, web development
+                    </li>
+                    <li>
+                    &#9883; Free video tutorials
+                    </li>
+                </ul>
+            </ul>
+        </section>
+        <section class="section" id ="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>&#10148; Russian: native</li>
+                <li>&#10148; Ukrainian: native</li>
+                <li>&#10148; English: basics, learning <a href="https://www.duolingo.com/learn">Duolingo</a></li>
+            </ul>
+        </section> 
+</main>
+<footer class="footer">
+    <nav class="nav-bottom">
+        <ul class ="nav-list-footer">
+            <li class ="nav-footer">
+                <a href="https://github.com/nataleya2010" class="nav-link-footer">
+                    <img src="assets/img/git.svg" class="icon-git">
+                </a>
+            </li>
+            <li class ="nav-footer">
+            &copy; 2022
+            </li>
+            <li class ="nav-footer">
+                <a href="https://rs.school/js/" class="nav-link-footer">
+                    <img src="assets/img/rs_school_js.svg" class="icon">
+                </a>
+            </li>
+        </ul>
+      </nav>
+</footer>
+</div>
+</body>
+</html>
